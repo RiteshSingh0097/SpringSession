@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    Question 1 & 2-->
+    <bean id="database" class="exe.DatabaseDB">
+        <property name="port" value="3223"/>
+        <property name="name" value="mysql"/>
+    </bean>
+
+    <!--Question 3 & 4-->
+    <bean id="tea" class="exe.Tea"/>
+
+    <bean id="teaRestaurant" class="exe.Restaurant">
+        <property name="hotDrink" ref="tea"/>
+    </bean>
+
+    <bean id="expressRestaurant" class="exe.Restaurant">
+        <property name="hotDrink">
+            <bean id="expressTea" class="exe.ExpressTea"/>
+        </property>
+    </bean>
+
+    <bean id="expressTea" class="exe.ExpressTea"/>
+
+<!--    Question 5-->
+    <bean class="exe.Complex">
+        <property name="list">
+            <list>
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+                <value>4</value>
+                <value>1</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+                <value>4</value>
+                <value>1</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="1" value="Ritesh"/>
+                <entry key="2" value="Pankaj"/>
+                <entry key="3" value="Rajat"/>
+                <entry key="4" value="Raman"/>
+            </map>
+        </property>
+    </bean>
+
+<!--    Question 6-->
+    <bean id="hotDrink" class="exe.ExpressTea"/>
+    <bean id="teaRes" class="exe.Restaurant" autowire="byName"/>
+
+    <!--<bean id="byType" class="exe.Restaurant" autowire="byType"/>-->
+    
+    <bean id="teaAgain" class="exe.Restaurant">
+        <constructor-arg ref="tea"/>
+    </bean>
+    <bean id="byCons" class="exe.Restaurant" autowire="constructor"/>
+
+<!--    Question 9-->
+    <context:annotation-config/>
+    <context:component-scan base-package="exe"/>
+
+</beans>
