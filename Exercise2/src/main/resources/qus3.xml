@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="databaseCon" class="question3.DatabaseCon">
+        <property name="port" value="3239"/>
+        <property name="name" value="mysql"/>
+    </bean>
+
+    <bean class="question3.CustomEventListener"/>
+</beans>
