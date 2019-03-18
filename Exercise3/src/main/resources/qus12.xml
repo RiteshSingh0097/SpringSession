@@ -24,5 +24,6 @@
         <context:annotation-config/>
 
         <context:component-scan base-package="question12"/>
+        <context:component-scan base-package="question13"/>
 
 </beans>
