@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca24f099-5744-46ae-ae18-8b768f9b7d25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Exercise3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise3/src/main/java/question1/SpringDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise3/src/main/java/question2/DatabaseConn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise3/src/main/resources/qus2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/com.ttn.doubt.main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question1/Dummy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question1/MyMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question2/Dummy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question2/MyMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question3/CustomEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question3/CustomEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question3/DatabaseCon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question3/Question3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question4/MyAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question4/MyMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question5/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question5/LoggingAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question6/Database.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question6/LoggerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question7/AOPMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question7/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question8/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question8/MyAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question8/MyMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question9/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/question9/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/question9/MyNewMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/question8/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/question8/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise3/src/main/java/question1/SpringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise3/src/main/java/question1/SpringDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise3/src/main/java/question2/DatabaseConn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise3/src/main/java/question2/DatabaseConn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise3/src/main/resources/qus2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise3/src/main/resources/qus2.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -64,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/question8/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
@@ -72,6 +49,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/qus2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -161,6 +147,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="question8" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="doubt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercise2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -171,7 +164,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552628919818" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552629083701" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -233,12 +226,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552628755255</updated>
-      <workItem from="1552628756591" duration="155000" />
+      <workItem from="1552628756591" duration="419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155000" />
+    <option name="totallyTimeSpent" value="419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -249,19 +242,19 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32954547" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,6 +303,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/qus2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
