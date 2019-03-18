@@ -7,15 +7,22 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 @Repository
-public class UserDao1 {
+public class Nest1 {
+
+    @Autowired
+    Nest2 nest2;
 
     @Autowired
     JdbcTemplate jdbcTemplate;
 
-    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    @Transactional(propagation = Propagation.REQUIRED)
     public void insertUserDao() {
-        String sql = "INSERT INTO student(id,name) VALUES(3,'Singh')";
+        String sql = "INSERT INTO student(id,name) VALUES(1,'Singh')";
         jdbcTemplate.update(sql);
-        throw new RuntimeException();
+        try {
+            nest2.insertUserDao();
+        } catch (Exception e) {
+        }
+
     }
 }

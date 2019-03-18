@@ -8,7 +8,26 @@ public class Main {
     public static void main(String[] args) {
 
         ApplicationContext apx = new ClassPathXmlApplicationContext("qus12.xml");
-        UserDao2 userDao = apx.getBean(UserDao2.class);
-        userDao.insertUserDao2();
+        /*RequiredDemo requiredDemo = apx.getBean(RequiredDemo.class);
+        requiredDemo.insertUser();*/
+
+        /*RequiresNewDemo requiresNewDemo = apx.getBean(RequiresNewDemo.class);
+        requiresNewDemo.insertUser();*/
+
+        /*Nest1 nest1 = apx.getBean(Nest1.class);
+        nest1.insertUserDao();*/
+
+        /*MandatoryDemo mandatoryDemo = apx.getBean(MandatoryDemo.class);
+        mandatoryDemo.insertUserDao();*/
+
+        /*NeverDemo neverDemo = apx.getBean(NeverDemo.class);
+        neverDemo.insertUser();*/
+
+        /*SupportDemo supportDemo = apx.getBean(SupportDemo.class);
+        supportDemo.insertUserDao();*/
+
+        NotSupportDemo notSupportDemo = apx.getBean(NotSupportDemo.class);
+        notSupportDemo.insertUserDao();
+
     }
 }

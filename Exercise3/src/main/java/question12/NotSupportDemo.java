@@ -7,15 +7,18 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 @Repository
-public class UserDao1 {
+public class NotSupportDemo {
+
+    @Autowired
+    NotSupport notSupport;
 
     @Autowired
     JdbcTemplate jdbcTemplate;
 
-    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    @Transactional(propagation = Propagation.REQUIRED)
     public void insertUserDao() {
-        String sql = "INSERT INTO student(id,name) VALUES(3,'Singh')";
+        String sql = "INSERT INTO student(id,name) VALUES(2,'Singh')";
         jdbcTemplate.update(sql);
-        throw new RuntimeException();
+        notSupport.insertUserDao();
     }
 }
