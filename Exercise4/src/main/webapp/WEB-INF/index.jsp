@@ -11,6 +11,6 @@
     <title>index</title>
 </head>
 <body>
-Hello buddy...
+Hello from index.gsp
 </body>
 </html>

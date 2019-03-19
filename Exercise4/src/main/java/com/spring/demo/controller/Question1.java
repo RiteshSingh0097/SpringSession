@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 public class Question1 extends AbstractController {
     @Override
     protected ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        ModelAndView modelAndView = new ModelAndView("hello");
+        ModelAndView modelAndView = new ModelAndView("index");
         return modelAndView;
     }
 }
