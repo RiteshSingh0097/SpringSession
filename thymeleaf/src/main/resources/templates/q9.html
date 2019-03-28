@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Qus 9</title>
+</head>
+<body>
+<label>Competency: </label>
+<select>
+    <option th:value="None">Select One</option>
+    <option th:each="competency : ${T(com.ttn.thymeleaf.enums.Enum).values()}"
+            th:value="${competency.getValue()}" th:text="${competency.getValue()}"></option>
+</select>
+</body>
+</html> 

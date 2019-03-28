@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Qus 3</title>
+</head>
+<body>
+<form action="#" th:action="@{/saveEmployee}" th:object="${employee}" method="post">
+
+    <label th:text="EmployeeId"/>
+    <input type="number" th:field="*{id}"/>
+    <br/><br/>
+    <label th:text="EmployeeName"/>
+    <input type="text" th:field="*{name}"/>
+    <br/><br/>
+    <input type="submit" value="Submit"/>
+
+</form>
+</body>
+</html>

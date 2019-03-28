@@ -22,8 +22,7 @@
         <property name="hbm2ddl.auto">create</property>
 
         <!--Annotated entity class-->
-        <mapping class="com.hibernate.demo.Author"/>
-        <mapping class="com.hibernate.demo.Book"/>
-
+        <mapping class="com.hibernate.demo.Person"/>
+        <mapping class="com.hibernate.demo.Vehicle"/>
     </session-factory>
 </hibernate-configuration>

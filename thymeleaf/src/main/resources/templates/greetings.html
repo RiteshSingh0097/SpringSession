@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Greetings</title>
+</head>
+<body th:with="var=${isAdmin}=='Admin'">
+<span th:if="${var}">
+    Hello Admin!
+</span>
+<span th:unless="${var}">
+    Hello User!
+</span>
+</body>
+</html>
