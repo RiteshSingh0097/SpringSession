@@ -92,5 +92,20 @@ public class TestController {
     }
 
     //Question 10
+    @GetMapping("showLoader")
+    public String showLoader(){
+        return "q10";
+    }
+
+    @PostMapping("/registrationSubmit")
+    @ResponseBody
+    public String register(@ModelAttribute Employee employee){
+        try {
+            Thread.sleep(1000);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return "Registered: "+employee.getName()+"<br/>";
+    }
 
 }
